@@ -1,13 +1,67 @@
+/* GOOGLE FONT IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+
 /* CSS STYLESHEET FOR INDEX.HTML */
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: 'DM Sans', sans-serif;
 }
 
 #cv-wrapper {
-	border: 1px solid black;
-	width: 50%;
+	width: 60%;
 	margin: 0 auto;
-	padding: 50px;
+	padding: 30px;
+}
+
+header {
+	display: flex;
+	border-bottom: 1px solid black;
+
+}
+
+.cv-section-one {
+	width: 50%;
+	
+}
+
+.cv-section-one > h1 {
+	font-size: 45px;
+}
+
+.cv-section-two {
+	width: 50%;
+	margin-bottom: 50px;
+	
+}
+
+#icon-wrap {
+	width: 60%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+#icon-wrap > span {
+	padding: 1px;
+
+}
+
+.fa-home, .fa-globe, .fa-envelope, .fa-linkedin {
+	padding: 8px;
+	font-size: 22px;
+}
+
+.page-breaker {
+	width: 100%;
+	text-align: center;
+}
+
+.fa-angle-down {
+	padding: 8px;
+	font-size: 30px;
+	
 }
