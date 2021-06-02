@@ -23,9 +23,10 @@ body {
 
 header {
 	display: flex;
-	border-bottom: 1px solid black;
+	border: 2px solid white;
 	background-color: #35a79c;
 	color: white;
+	border-radius: 25px;
 
 }
 
@@ -40,13 +41,12 @@ header {
 	
 }
 
-.cv-section-one > h3 {
-	
-}
 
 .cv-section-two {
 	width: 50%;
 	background-color: #35a79c;
+	border-radius: 25px 25px;
+	padding: 5px;
 	
 }
 
@@ -56,11 +56,17 @@ header {
 	display: flex;
 	flex-direction: column;
 	text-align: left;
+	
 }
 
 #icon-wrap > span {
 	padding: 1px;
 
+}
+
+#icon-wrap > span > a {
+	text-decoration: none;
+	color: white;
 }
 
 .fa-home, .fa-globe, .fa-envelope, .fa-linkedin {
@@ -85,8 +91,19 @@ header {
 	padding: 25px;
 }
 
+.cv-section-three > h2 {
+	padding: 5px;
+}
+
 .cv-section-three > p {
 	margin-bottom: 50px;
+	padding: 5px;
+}
+
+.role {
+	color: #35a79c;
+	font-weight: bold;
+	
 }
 
 #work-wrapper {
@@ -108,6 +125,10 @@ header {
 	
 }
 
+.cv-section-four > h2 {
+	padding-bottom: 10px;
+}
+
 
 #education-wrapper {
 	display: flex;
@@ -116,6 +137,7 @@ header {
 
 #education-wrapper > section {
 	width: 25%;
+	padding: 5px;
 }
 
 .cv-section-five {
@@ -124,20 +146,40 @@ header {
 	padding: 25px;
 }
 
+.cv-section-five > h2 {
+	padding: 5px;
+}
+
 #skills-wrapper {
 	display: flex;
 	margin-bottom: 50px;
-	font-size: 150px;
+	font-size: 125px;
 	justify-content: space-evenly;
+	color: #35a79c
 
 }
 
 .cv-section-six {
 	border-bottom: 1px solid black;
 	background-color: #f1f3f4;
+	padding: 25px;
+	
+}
+
+.cv-section-six > h2 {
+	padding: 10px;
 }
 
 .cv-section-seven {
 	margin-bottom: 50px;
 	background-color: #f1f3f4;
+	padding: 25px;
+}
+
+.page-breaker {
+	color: white;
+}
+
+.cv-section-seven > h2 {
+	padding: 5px;
 }
