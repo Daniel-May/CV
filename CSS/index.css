@@ -253,7 +253,7 @@ button > a:hover {
 		display: flex;
 		flex-wrap: wrap;
 		margin-bottom: 50px;
-		font-size: 25px;
+		font-size: 50px;
 		justify-content: space-evenly;
 		color: #35a79c
 	
@@ -268,6 +268,15 @@ button > a:hover {
 		width: 100%;
 		padding: 5px;
 	
+	}
+
+	#education-wrapper {
+		flex-direction: column;
+	}
+
+	#education-wrapper > section {
+		width: 100%;
+		padding: 5px;
 	}
 	
   }
